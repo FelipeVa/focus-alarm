@@ -10,17 +10,17 @@ import {
   SwitchRouterButton,
   XStack,
   YStack,
-} from '@my/ui'
-import { ChevronDown, ChevronUp, X } from '@tamagui/lucide-icons'
-import { useState } from 'react'
-import { Platform } from 'react-native'
-import { useLink } from 'solito/navigation'
+} from '@my/ui';
+import { ChevronDown, ChevronUp, X } from '@tamagui/lucide-icons';
+import { useState } from 'react';
+import { Platform } from 'react-native';
+import { useLink } from 'solito/navigation';
 
 export function HomeScreen({ pagesMode = false }: { pagesMode?: boolean }) {
-  const linkTarget = pagesMode ? '/pages-example-user' : '/user'
+  const linkTarget = pagesMode ? '/pages-example-user' : '/user';
   const linkProps = useLink({
     href: `${linkTarget}/nate`,
-  })
+  });
 
   return (
     <YStack f={1} jc="center" ai="center" gap="$8" p="$4" bg="$background">
@@ -59,14 +59,14 @@ export function HomeScreen({ pagesMode = false }: { pagesMode?: boolean }) {
 
       <SheetDemo />
     </YStack>
-  )
+  );
 }
 
 function SheetDemo() {
-  const toast = useToastController()
+  const toast = useToastController();
 
-  const [open, setOpen] = useState(false)
-  const [position, setPosition] = useState(0)
+  const [open, setOpen] = useState(false);
+  const [position, setPosition] = useState(0);
 
   return (
     <>
@@ -109,14 +109,14 @@ function SheetDemo() {
             circular
             icon={ChevronDown}
             onPress={() => {
-              setOpen(false)
+              setOpen(false);
               toast.show('Sheet closed!', {
                 message: 'Just showing how toast works...',
-              })
+              });
             }}
           />
         </Sheet.Frame>
       </Sheet>
     </>
-  )
+  );
 }
