@@ -6498,7 +6498,7 @@ __metadata:
     expo-linking: "npm:~6.3.1"
     react-hook-form: "npm:^7.53.0"
     react-native-safe-area-context: "npm:4.10.4"
-    react-native-svg: "npm:^15.7.1"
+    react-native-svg: "npm:15.3.0"
     solito: "npm:^4.2.2"
     zod: "npm:^3.23.8"
   languageName: unknown
