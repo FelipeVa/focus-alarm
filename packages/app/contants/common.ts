@@ -1,0 +1,45 @@
+const weekdays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
+const times = [
+  { label: '12:00 AM', value: '00:00' },
+  { label: '1:00 AM', value: '01:00' },
+  { label: '2:00 AM', value: '02:00' },
+  { label: '3:00 AM', value: '03:00' },
+  { label: '4:00 AM', value: '04:00' },
+  { label: '5:00 AM', value: '05:00' },
+  { label: '6:00 AM', value: '06:00' },
+  { label: '7:00 AM', value: '07:00' },
+  { label: '8:00 AM', value: '08:00' },
+  { label: '9:00 AM', value: '09:00' },
+  { label: '10:00 AM', value: '10:00' },
+  { label: '11:00 AM', value: '11:00' },
+  { label: '12:00 PM', value: '12:00' },
+  { label: '1:00 PM', value: '13:00' },
+  { label: '2:00 PM', value: '14:00' },
+  { label: '3:00 PM', value: '15:00' },
+  { label: '4:00 PM', value: '16:00' },
+  { label: '5:00 PM', value: '17:00' },
+  { label: '6:00 PM', value: '18:00' },
+  { label: '7:00 PM', value: '19:00' },
+  { label: '8:00 PM', value: '20:00' },
+  { label: '9:00 PM', value: '21:00' },
+  { label: '10:00 PM', value: '22:00' },
+  { label: '11:00 PM', value: '23:00' },
+];
+
+const minutes = [
+  { label: '1 minute', value: '1' },
+  { label: '5 minutes', value: '5' },
+  { label: '10 minutes', value: '10' },
+  { label: '15 minutes', value: '15' },
+  { label: '20 minutes', value: '20' },
+  { label: '25 minutes', value: '25' },
+  { label: '30 minutes', value: '30' },
+  { label: '35 minutes', value: '35' },
+  { label: '40 minutes', value: '40' },
+  { label: '45 minutes', value: '45' },
+  { label: '50 minutes', value: '50' },
+  { label: '55 minutes', value: '55' },
+  { label: '60 minutes', value: '60' },
+];
+
+export { weekdays, times, minutes };
