@@ -1,0 +1,58 @@
+.checkbox {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+}
+
+.checkbox .checkbox-wrapper {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.checkbox .rectangle {
+  background-color: #ededed;
+  border: 2px solid;
+  border-radius: 5px;
+  height: 22px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-right: -1px;
+  margin-top: -1px;
+  position: relative;
+  width: 22px;
+}
+
+.checkbox .feather-icon {
+  height: 14px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 14px;
+}
+
+.checkbox .text-wrapper {
+  color: #30a46c;
+  font-family: var(--text-regular-md-16px-font-family);
+  font-size: var(--text-regular-md-16px-font-size);
+  font-style: var(--text-regular-md-16px-font-style);
+  font-weight: var(--text-regular-md-16px-font-weight);
+  letter-spacing: var(--text-regular-md-16px-letter-spacing);
+  line-height: var(--text-regular-md-16px-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.checkbox .inactive {
+  border-color: #7e7e7e;
+}
+
+.checkbox .indeterminate {
+  border-color: #505050;
+}

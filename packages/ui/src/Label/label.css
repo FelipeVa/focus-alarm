@@ -1,0 +1,22 @@
+.label {
+  align-items: center;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  position: relative;
+  width: 141px;
+}
+
+.label .text-wrapper-2 {
+  color: #282828;
+  font-family: var(--text-regular-sm-14px-font-family);
+  font-size: var(--text-regular-sm-14px-font-size);
+  font-style: var(--text-regular-sm-14px-font-style);
+  font-weight: var(--text-regular-sm-14px-font-weight);
+  letter-spacing: var(--text-regular-sm-14px-letter-spacing);
+  line-height: var(--text-regular-sm-14px-line-height);
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}

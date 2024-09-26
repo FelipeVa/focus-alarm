@@ -1,0 +1,26 @@
+.input {
+  align-items: center;
+  background-color: #e5fbeb;
+  border: 1px solid;
+  border-color: #505050;
+  border-radius: 9px;
+  display: flex;
+  height: 44px;
+  padding: 16px;
+  position: relative;
+}
+
+.input .text {
+  align-self: stretch;
+  color: #707070;
+  flex: 1;
+  font-family: var(--text-regular-sm-14px-font-family);
+  font-size: var(--text-regular-sm-14px-font-size);
+  font-style: var(--text-regular-sm-14px-font-style);
+  font-weight: var(--text-regular-sm-14px-font-weight);
+  letter-spacing: var(--text-regular-sm-14px-letter-spacing);
+  line-height: var(--text-regular-sm-14px-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}

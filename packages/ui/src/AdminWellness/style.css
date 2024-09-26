@@ -1,0 +1,243 @@
+.macbook-air {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.macbook-air .div {
+  background-color: #ffffff;
+  height: 832px;
+  overflow: hidden;
+  position: relative;
+  width: 1280px;
+}
+
+.macbook-air .overlap {
+  border-radius: 9px;
+  height: 82px;
+  left: 95px;
+  position: absolute;
+  top: 66px;
+  width: 1008px;
+}
+
+.macbook-air .form {
+  align-items: center;
+  background-color: #e5fbeb;
+  border: 1px solid;
+  border-color: #343434;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 82px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1008px;
+}
+
+.macbook-air .text-wrapper-2 {
+  color: #ededed;
+  font-family: var(--heading-h4-font-family);
+  font-size: var(--heading-h4-font-size);
+  font-style: var(--heading-h4-font-style);
+  font-weight: var(--heading-h4-font-weight);
+  letter-spacing: var(--heading-h4-letter-spacing);
+  line-height: var(--heading-h4-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.macbook-air .instance {
+  align-items: center;
+  background-color: #9747ff08;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-right-style: dashed;
+  border-right-width: 1px;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  left: 912px;
+  position: absolute;
+  top: 23px;
+  width: 67px;
+}
+
+.macbook-air .overlap-group {
+  border-radius: 9px;
+  height: 472px;
+  left: 92px;
+  position: absolute;
+  top: 206px;
+  width: 1008px;
+}
+
+.macbook-air .form-2 {
+  align-items: center;
+  background-color: #e5fbeb;
+  border: 1px solid;
+  border-color: #343434;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 472px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1008px;
+}
+
+.macbook-air .button-wrapper {
+  align-items: center;
+  background-color: #9747ff08;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-right-style: dashed;
+  border-right-width: 1px;
+  display: flex;
+  height: 92px;
+  justify-content: center;
+  left: 452px;
+  position: absolute;
+  top: 377px;
+  width: 215px;
+}
+
+.macbook-air .textinput-stack {
+  align-items: flex-start;
+  background-color: #e8e8e8;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  height: 276px;
+  left: 65px;
+  padding: 21px;
+  position: absolute;
+  top: 72px;
+  width: 877px;
+}
+
+.macbook-air .checkbox-instance {
+  left: 243px !important;
+  position: absolute !important;
+  top: 190px !important;
+}
+
+.macbook-air .inputgroup-large {
+  align-items: flex-start;
+  display: flex;
+  gap: 7px;
+  left: 563px;
+  position: absolute;
+  top: 176px;
+  width: 184px;
+}
+
+.macbook-air .inputgroup-large-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 7px;
+  left: 376px;
+  position: absolute;
+  top: 114px;
+  width: 184px;
+}
+
+.macbook-air .inputgroup-large-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 7px;
+  left: 368px;
+  position: absolute;
+  top: 247px;
+  width: 184px;
+}
+
+.macbook-air .design-component-instance-node {
+  left: 248px !important;
+  position: absolute !important;
+  top: 126px !important;
+}
+
+.macbook-air .checkbox-2 {
+  left: 238px !important;
+  position: absolute !important;
+  top: 263px !important;
+}
+
+.macbook-air .checkbox-3 {
+  display: flex !important;
+  height: 26px !important;
+  left: 353px !important;
+  position: absolute !important;
+  top: 187px !important;
+  width: 195px !important;
+}
+
+.macbook-air .instance-2 {
+  align-items: center;
+  background-color: #9747ff08;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-color: #ffffff;
+  border-right-style: dashed;
+  border-right-width: 1px;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  left: 590px;
+  position: absolute;
+  top: 113px;
+  width: 141px;
+}
+
+.macbook-air .instance-3 {
+  align-items: center;
+  background-color: #9747ff08;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-right-style: dashed;
+  border-right-width: 1px;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  left: 582px;
+  position: absolute;
+  top: 247px;
+  width: 141px;
+}
+
+.macbook-air .instance-4 {
+  align-items: center;
+  background-color: #9747ff08;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-right-style: dashed;
+  border-right-width: 1px;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  left: 758px;
+  position: absolute;
+  top: 174px;
+  width: 141px;
+}
+
+.macbook-air .focusalarm {
+  height: 73px;
+  left: -526px;
+  object-fit: cover;
+  position: absolute;
+  top: -346px;
+  width: 75px;
+}
