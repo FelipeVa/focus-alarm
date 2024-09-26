@@ -1,0 +1,27 @@
+.text-area {
+  align-items: flex-start;
+  background-color: #f8f8f8;
+  border: 1px solid;
+  border-color: #c7c7c7;
+  border-radius: 5px;
+  display: flex;
+  height: 44px;
+  overflow: hidden;
+  padding: 4px;
+  position: relative;
+  width: 240px;
+}
+
+.text-area .div {
+  align-self: stretch;
+  color: #8f8f8f;
+  flex: 1;
+  font-family: var(--text-regular-2xs-12px-font-family);
+  font-size: var(--text-regular-2xs-12px-font-size);
+  font-style: var(--text-regular-2xs-12px-font-style);
+  font-weight: var(--text-regular-2xs-12px-font-weight);
+  letter-spacing: var(--text-regular-2xs-12px-letter-spacing);
+  line-height: var(--text-regular-2xs-12px-line-height);
+  margin-top: -1px;
+  position: relative;
+}

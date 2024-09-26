@@ -48,3 +48,6 @@ thumbs.db
 **/.turbo/*
 
 .idea
+
+# anima
+.anima

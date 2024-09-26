@@ -1,0 +1,122 @@
+.macbook-air {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.macbook-air .div-2 {
+  background-color: #ffffff;
+  height: 832px;
+  position: relative;
+  width: 1280px;
+}
+
+.macbook-air .overlap-group {
+  border-radius: 9px;
+  height: 444px;
+  left: 238px;
+  position: absolute;
+  top: 247px;
+  width: 777px;
+}
+
+.macbook-air .form {
+  align-items: center;
+  background-color: #e5fbeb;
+  border: 1px solid;
+  border-color: #343434;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 444px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 777px;
+}
+
+.macbook-air .text-wrapper-3 {
+  color: #1B543A;
+  font-family: var(--heading-h4-font-family);
+  font-size: var(--heading-h4-font-size);
+  font-style: var(--heading-h4-font-style);
+  font-weight: var(--heading-h4-font-weight);
+  letter-spacing: var(--heading-h4-letter-spacing);
+  line-height: var(--heading-h4-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.macbook-air .instance {
+  align-items: center;
+  background-color: #9747ff08;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-right-style: dashed;
+  border-right-width: 1px;
+  display: flex;
+  height: 92px;
+  justify-content: center;
+  left: 294px;
+  position: absolute;
+  top: 308px;
+  width: 215px;
+}
+
+.macbook-air .button-instance {
+  flex: 0 0 auto !important;
+}
+
+.macbook-air .text-area-instance {
+  left: 380px !important;
+  position: absolute !important;
+  top: 105px !important;
+}
+
+.macbook-air .design-component-instance-node {
+  left: 380px !important;
+  position: absolute !important;
+  top: 195px !important;
+}
+
+.macbook-air .label-instance {
+  left: 153px !important;
+  position: absolute !important;
+  top: 109px !important;
+}
+
+.macbook-air .label-2 {
+  left: 153px !important;
+  position: absolute !important;
+  top: 195px !important;
+}
+
+.macbook-air .overlap {
+  height: 114px;
+  left: 519px;
+  position: absolute;
+  top: 110px;
+  width: 253px;
+}
+
+.macbook-air .heading-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.macbook-air .image {
+  height: 114px;
+  left: 28px;
+  align-content: center;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 159px;
+}
