@@ -6,6 +6,7 @@ import { Provider } from 'app/provider';
 import { SafeArea } from 'app/provider/safe-area';
 import { AuthProvider } from 'app/context';
 import { NativeToast } from '@my/ui/src/NativeToast';
+import { useTheme } from '@my/ui';
 
 export const unstable_settings = {
   // Ensure that reloading on `/user` keeps a back button present.
@@ -35,20 +36,36 @@ export default function App() {
   return <RootLayoutNav />;
 }
 
+function InnerApp() {
+  const theme = useTheme();
+
+  return (
+    <ThemeProvider
+      value={{
+        ...DefaultTheme,
+        colors: {
+          ...DefaultTheme.colors,
+          background: theme.background?.val,
+        },
+      }}
+    >
+      <AuthProvider>
+        <Stack
+          screenOptions={{
+            headerShown: false,
+          }}
+        />
+        <NativeToast />
+      </AuthProvider>
+    </ThemeProvider>
+  );
+}
+
 function RootLayoutNav() {
   return (
     <SafeArea>
       <Provider>
-        <ThemeProvider value={DefaultTheme}>
-          <AuthProvider>
-            <Stack
-              screenOptions={{
-                headerShown: false,
-              }}
-            />
-            <NativeToast />
-          </AuthProvider>
-        </ThemeProvider>
+        <InnerApp />
       </Provider>
     </SafeArea>
   );

@@ -27,7 +27,7 @@ function useAuth() {
 }
 
 function AuthProvider({ children }: AuthProviderProps) {
-  const [session, setSession] = useState<boolean | null>(null);
+  const [session, setSession] = useState<boolean | null>(true);
   return (
     <AuthContext.Provider
       value={{
