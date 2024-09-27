@@ -17,7 +17,7 @@ export const TextArea = ({ status, size, state, className, value="", onChange, p
     <div className={`text-area ${className}`}>
       <textarea
         className="textarea-input"
-        //value={value}
+        value={value}
         onChange={onChange}
         placeholder={placeholder || ""}
       />

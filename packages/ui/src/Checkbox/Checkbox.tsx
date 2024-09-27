@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useState } from "react";
 import "./checkbox.css";
 
 interface Props {
@@ -11,13 +11,34 @@ interface Props {
 }
 
 export const Checkbox = ({ status, state, size, className, text = "Default" }: Props): JSX.Element => {
+  const [checked, setChecked] = useState(status === "indeterminate" ? false : true); // Estado para manejar si el checkbox está marcado o no
+  const [indeterminate, setIndeterminate] = useState(status === "indeterminate"); // Estado para manejar si es indeterminado
+
+  const handleChange = () => {
+    if (indeterminate) {
+      setIndeterminate(false); // Si era indeterminado, lo cambiamos a "no indeterminado"
+      setChecked(true); // Al hacer clic, se marcará el checkbox
+    } else {
+      setChecked(!checked); // Cambia entre marcado y no marcado
+    }
+  };
+
   return (
     <div className={`checkbox ${className}`}>
       <div className="checkbox-wrapper">
-        <div className={`rectangle ${status}`} />
-        {status === "indeterminate" && <img className="feather-icon" alt="Feather icon" />}
+        <input
+          type="checkbox"
+          checked={checked}
+          onChange={handleChange}
+          className={`checkbox-input ${state} ${size}`}
+          ref={(input) => {
+            if (input) {
+              input.indeterminate = indeterminate; // Maneja el estado indeterminado
+            }
+          }}
+        />
+        <label className="checkbox-label">{text}</label>
       </div>
-      <div className="text-wrapper">{text}</div>
     </div>
   );
 };
