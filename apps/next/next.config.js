@@ -71,6 +71,27 @@ module.exports = function () {
     experimental: {
       scrollRestoration: true,
     },
+    async headers() {
+      return [
+        {
+          source: "/(.*).css",
+          headers: [
+            {
+              key: "Cache-Control",
+              value: "public, max-age=0, must-revalidate",
+            },
+            {
+              key: "Pragma",
+              value: "no-cache",
+            },
+            {
+              key: "Expires",
+              value: "0",
+            },
+          ],
+        },
+      ];
+    }
   }
 
   for (const plugin of plugins) {
@@ -79,6 +100,5 @@ module.exports = function () {
       ...plugin(config),
     }
   }
-
   return config
 }

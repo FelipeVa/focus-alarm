@@ -1,7 +1,7 @@
 import React from 'react';
 import { WebButton as Button, WebHeading as Heading } from '@my/ui';
 
-import './style.css';
+import './style_admin.css';
 
 export const AdminPage = (): JSX.Element => {
   return (

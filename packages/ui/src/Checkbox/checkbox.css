@@ -6,12 +6,11 @@
 }
 
 .checkbox .checkbox-wrapper {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   gap: 10px;
-  height: 20px;
-  position: relative;
-  width: 20px;
+  width: auto;
+  height: auto;
 }
 
 .checkbox .rectangle {
@@ -19,13 +18,12 @@
   border: 2px solid;
   border-radius: 5px;
   height: 22px;
-  margin-bottom: -1px;
-  margin-left: -1px;
-  margin-right: -1px;
-  margin-top: -1px;
-  position: relative;
   width: 22px;
+  position: relative;
+  margin: -1px;
+  pointer-events: none;
 }
+
 
 .checkbox .feather-icon {
   height: 14px;
@@ -47,6 +45,7 @@
   text-align: center;
   white-space: nowrap;
   width: fit-content;
+  z-index: 1;
 }
 
 .checkbox .inactive {
@@ -55,4 +54,25 @@
 
 .checkbox .indeterminate {
   border-color: #505050;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  /* Asegura que no sea cubierto */
+  z-index: 1;
+  /* Lleva el checkbox por delante de otros elementos */
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  /* Asegura que sea clickeable */
+}
+
+.checkbox-input {
+  width: 16px;
+  height: 16px;
+  /* Asegúrate de que no esté oculto */
+  visibility: visible;
+  opacity: 1;
+  /* Añade borde o fondo si es necesario */
+  border: 1px solid #000;
 }

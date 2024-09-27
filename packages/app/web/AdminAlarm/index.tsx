@@ -5,7 +5,7 @@ import {
   WebLucideIcon as LucideIcon,
   WebInput as Input,
 } from '@my/ui';
-import './style.css';
+import './style_admin_alarm.css';
 
 export const AdminAlarmPage = (): JSX.Element => {
   return (
