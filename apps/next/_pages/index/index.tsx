@@ -1,9 +1,9 @@
-import { Index } from '../../../../packages/ui/src/index/index';
+import { HomePage } from '@my/ui';
 
 const IndexPage = () => {
   return (
     <div>
-      <Index />
+      <HomePage />
     </div>
   );
 };

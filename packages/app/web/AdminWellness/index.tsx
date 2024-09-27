@@ -1,14 +1,14 @@
-"use client";
+import React from 'react';
+import {
+  WebButton as Button,
+  WebCheckbox as Checkbox,
+  WebHeading as Heading,
+  WebInput as Input,
+} from '@my/ui';
+import focusalarm2 from './focusalarm-2.png';
+import './style.css';
 
-import React from "react";
-import { Button } from "packages/ui/src/Button/Button";
-import { Heading } from "packages/ui/src/Heading/Heading";
-import { Input } from "packages/ui/src/Input/Input";
-import { Checkbox } from "../Checkbox/Checkbox";
-import focusalarm2 from "./focusalarm-2.png";
-import "./style.css";
-
-export const wellness = (): JSX.Element => {
+export const AdminWellnessPage = (): JSX.Element => {
   return (
     <div className="macbook-air">
       <div className="div">
@@ -39,7 +39,12 @@ export const wellness = (): JSX.Element => {
           <div className="inputgroup-large-3">
             <Input size="large" state="default" status="default" text="Url lista reproducción " />
           </div>
-          <Checkbox className="design-component-instance-node" size="default" state="hover" status="indeterminate" />
+          <Checkbox
+            className="design-component-instance-node"
+            size="default"
+            state="hover"
+            status="indeterminate"
+          />
           <Checkbox className="checkbox-2" size="default" state="hover" status="indeterminate" />
           <Checkbox
             className="checkbox-3"

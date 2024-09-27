@@ -1,4 +1,4 @@
-import { wellness } from '../../../packages/ui/src/adminWellness/AdminWellness';
+import { AdminWellnessPage } from '../../../packages/app/web/AdminWellness';
 
 const IndexPage = () => {
   return (

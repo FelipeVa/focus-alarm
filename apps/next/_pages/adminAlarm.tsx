@@ -1,4 +1,4 @@
-import { Alarm } from '../../../packages/ui/src/adminAlarm/adminAlarm';
+import { Alarm } from '../../../packages/app/web/AdminAlarm';
 
 const IndexPage = () => {
   return (

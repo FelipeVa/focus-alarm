@@ -1,9 +1,9 @@
-import { Admin } from '../../../packages/ui/src/admin/admin';
+import { Index } from '../../../packages/app/web/Admin';
 
 const IndexPage = () => {
   return (
     <div>
-      <Admin />
+      <Index />
     </div>
   );
 };
